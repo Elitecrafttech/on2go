@@ -36,6 +36,7 @@ export default function RootLayout() {
       <AppContextProvider>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="Aonboarding" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       </AppContextProvider>
